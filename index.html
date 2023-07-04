@@ -453,7 +453,7 @@
 
 </style>
 <script>
-// The data/time we want to countdown to
+   // The data/time we want to countdown to
     var countDownDate = new Date('Jul 31, 2023 7:37:52').getTime();
 
     // Run myfunc every second
@@ -469,7 +469,7 @@
     var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
         
     // Result is output to the specific element
-    document.getElementById('days').innerHTML = days;
+    document.getElementById('days').innerHTML = days
     document.getElementById('hours').innerHTML = ('0' + hours).slice(-2); 
     document.getElementById('mins').innerHTML = ('0' + minutes).slice(-2);   
     document.getElementById('secs').innerHTML = ('0' + seconds).slice(-2);     
