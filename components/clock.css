@@ -1,0 +1,8 @@
+.clock-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.clock-div {
+  width: 100%;
+}
