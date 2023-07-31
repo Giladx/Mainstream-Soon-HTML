@@ -1,55 +1,21 @@
-.shops-container {
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-twounits);
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #111;
-}
-.shops-logo {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.shops-navlink {
-  display: contents;
-}
-.shops-image {
-  width: var(--dl-size-size-xxlarge);
-  align-self: center;
-  object-fit: cover;
-  margin-bottom: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.shops-text {
-  color: var(--dl-color-gray-white);
-  font-size: 4em;
-}
-.shops-cards {
+.cards-cards {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-twounits);
   position: relative;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
 }
-.shops-link {
+.cards-link {
   display: contents;
 }
-.shops-card {
+.cards-card {
   flex: 0 0 auto;
   width: 30%;
   height: auto;
   margin: var(--dl-space-space-twounits);
   display: flex;
   padding: var(--dl-space-space-unit);
-  position: relative;
   align-self: center;
   align-items: center;
   border-color: var(--dl-color-gray-700);
@@ -59,32 +25,28 @@
   justify-content: center;
   text-decoration: none;
 }
-.shops-container1 {
-  display: flex;
-  position: relative;
-}
-.shops-image1 {
+.cards-image {
   width: 100%;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius8);
   margin-bottom: var(--dl-space-space-twounits);
 }
-.shops-text03 {
+.cards-text {
   color: var(--dl-color-gray-white);
   direction: rtl;
   text-align: center;
   line-height: 1.5;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.shops-text07 {
+.cards-text04 {
   color: var(--dl-color-gray-white);
   font-size: 35px;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.shops-link1 {
+.cards-link1 {
   display: contents;
 }
-.shops-card1 {
+.cards-card1 {
   flex: 0 0 auto;
   width: 30%;
   height: auto;
@@ -100,28 +62,28 @@
   justify-content: center;
   text-decoration: none;
 }
-.shops-image2 {
+.cards-image1 {
   width: 100%;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius8);
   margin-bottom: var(--dl-space-space-twounits);
 }
-.shops-text10 {
+.cards-text07 {
   color: var(--dl-color-gray-white);
   direction: rtl;
   text-align: center;
   line-height: 1.5;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.shops-text15 {
+.cards-text12 {
   color: var(--dl-color-gray-white);
   font-size: 35px;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.shops-link2 {
+.cards-link2 {
   display: contents;
 }
-.shops-card2 {
+.cards-card2 {
   flex: 0 0 auto;
   width: 30%;
   height: auto;
@@ -137,255 +99,159 @@
   justify-content: center;
   text-decoration: none;
 }
-.shops-image3 {
+.cards-image2 {
   width: 100%;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius8);
   margin-bottom: var(--dl-space-space-twounits);
 }
-.shops-text18 {
+.cards-text15 {
   color: var(--dl-color-gray-white);
   direction: rtl;
   text-align: center;
   line-height: 1.5;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.shops-text23 {
-  color: var(--dl-color-gray-white);
-  font-size: 35px;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.shops-cards-2 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-twounits);
-  align-items: center;
-  justify-content: center;
-}
-.shops-link3 {
-  display: contents;
-}
-.shops-card3 {
-  flex: 0 0 auto;
-  width: 30%;
-  height: auto;
-  margin: var(--dl-space-space-twounits);
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  align-self: center;
-  align-items: center;
-  border-color: var(--dl-color-gray-700);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius8);
-  flex-direction: column;
-  justify-content: center;
-  text-decoration: none;
-}
-.shops-image4 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius8);
-  margin-bottom: var(--dl-space-space-twounits);
-}
-.shops-text26 {
-  color: var(--dl-color-gray-white);
-  direction: rtl;
-  text-align: center;
-  line-height: 1.5;
-  margin-bottom: var(--dl-space-space-twounits);
-}
-.shops-text30 {
+.cards-text20 {
   color: var(--dl-color-gray-white);
   font-size: 35px;
   margin-bottom: var(--dl-space-space-fourunits);
 }
 @media(max-width: 1600px) {
-  .shops-card {
+  .cards-card {
     margin: var(--dl-space-space-oneandhalfunits);
   }
-  .shops-text03 {
+  .cards-text {
     font-size: 2em;
   }
-  .shops-card1 {
+  .cards-card1 {
     margin: var(--dl-space-space-oneandhalfunits);
   }
-  .shops-text10 {
+  .cards-text07 {
     color: var(--dl-color-gray-white);
     font-size: 2em;
   }
-  .shops-card2 {
+  .cards-card2 {
     margin: var(--dl-space-space-oneandhalfunits);
   }
-  .shops-text18 {
-    font-size: 2em;
-  }
-  .shops-card3 {
-    margin: var(--dl-space-space-oneandhalfunits);
-  }
-  .shops-text26 {
+  .cards-text15 {
     font-size: 2em;
   }
 }
 @media(max-width: 1200px) {
-  .shops-text {
-    direction: rtl;
-  }
-  .shops-card {
+  .cards-card {
     margin: auto;
   }
-  .shops-text03 {
+  .cards-text {
     direction: inherit;
     font-size: 1.5em;
     text-align: center;
   }
-  .shops-text07 {
+  .cards-text04 {
     font-size: 32px;
     text-align: center;
   }
-  .shops-card1 {
+  .cards-card1 {
     margin: auto;
   }
-  .shops-text10 {
+  .cards-text07 {
     color: var(--dl-color-gray-white);
     direction: inherit;
     font-size: 1.5em;
     text-align: center;
   }
-  .shops-text15 {
+  .cards-text12 {
     font-size: 32px;
     text-align: center;
   }
-  .shops-card2 {
+  .cards-card2 {
     margin: auto;
   }
-  .shops-text18 {
+  .cards-text15 {
     direction: inherit;
     font-size: 1.5em;
     text-align: center;
   }
-  .shops-text23 {
-    font-size: 32px;
-    text-align: center;
-  }
-  .shops-card3 {
-    margin: auto;
-  }
-  .shops-text26 {
-    direction: inherit;
-    font-size: 1.5em;
-    text-align: center;
-  }
-  .shops-text30 {
+  .cards-text20 {
     font-size: 32px;
     text-align: center;
   }
 }
 @media(max-width: 991px) {
-  .shops-text03 {
+  .cards-text {
     font-size: 1.2em;
     text-align: center;
   }
-  .shops-text07 {
+  .cards-text04 {
     font-size: 25px;
   }
-  .shops-text10 {
+  .cards-text07 {
     font-size: 1.2em;
     text-align: center;
   }
-  .shops-text15 {
+  .cards-text12 {
     font-size: 25px;
   }
-  .shops-text18 {
+  .cards-text15 {
     font-size: 1.2em;
     text-align: center;
   }
-  .shops-text23 {
-    font-size: 25px;
-  }
-  .shops-text26 {
-    font-size: 1.2em;
-    text-align: center;
-  }
-  .shops-text30 {
+  .cards-text20 {
     font-size: 25px;
   }
 }
 @media(max-width: 767px) {
-  .shops-cards {
+  .cards-cards {
     flex-direction: column;
   }
-  .shops-card {
+  .cards-card {
     width: 100%;
     margin: var(--dl-space-space-twounits);
   }
-  .shops-text03 {
+  .cards-text {
     font-size: 2em;
   }
-  .shops-text07 {
+  .cards-text04 {
     font-size: 1.7em;
   }
-  .shops-card1 {
+  .cards-card1 {
     width: 100%;
     margin: var(--dl-space-space-twounits);
   }
-  .shops-text10 {
+  .cards-text07 {
     font-size: 2em;
   }
-  .shops-text15 {
+  .cards-text12 {
     font-size: 1.7em;
   }
-  .shops-card2 {
+  .cards-card2 {
     width: 100%;
     margin: var(--dl-space-space-twounits);
   }
-  .shops-text18 {
+  .cards-text15 {
     font-size: 2em;
   }
-  .shops-text23 {
-    font-size: 1.7em;
-  }
-  .shops-cards-2 {
-    flex-direction: column;
-  }
-  .shops-card3 {
-    width: 100%;
-    margin: var(--dl-space-space-twounits);
-  }
-  .shops-text26 {
-    font-size: 2em;
-  }
-  .shops-text30 {
+  .cards-text20 {
     font-size: 1.7em;
   }
 }
 @media(max-width: 479px) {
-  .shops-text {
-    text-align: center;
-    margin-bottom: var(--dl-space-space-twounits);
-  }
-  .shops-card {
+  .cards-card {
     margin: var(--dl-space-space-twounits);
   }
-  .shops-text03 {
+  .cards-text {
     font-size: 1.8em;
   }
-  .shops-card1 {
+  .cards-card1 {
     margin: var(--dl-space-space-twounits);
   }
-  .shops-text10 {
+  .cards-text07 {
     font-size: 1.8em;
   }
-  .shops-card2 {
+  .cards-card2 {
     margin: var(--dl-space-space-twounits);
   }
-  .shops-text18 {
-    font-size: 1.8em;
-  }
-  .shops-card3 {
-    margin: var(--dl-space-space-twounits);
-  }
-  .shops-text26 {
+  .cards-text15 {
     font-size: 1.8em;
   }
 }
